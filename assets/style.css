@@ -1,55 +1,60 @@
 * {
-    text-align: center;
-    box-sizing: border-box;
+  text-align: center;
+  font-family: baskerville, didot, calibri;
 }
 
 body {
-    background-color:rgb(122, 78, 59);
+  background-color: rgb(122, 78, 59);
 }
 
 header {
-    height: 350px;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: beige;
-    background-color:rgb(190, 122, 74)
+  height: 350px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+  background-color: rgb(190, 122, 74);
 }
 
 header img {
-    margin: 25px;
-    max-width: 250px;
-    border-style:solid;
-    border-width: 2px;
-    border-color: beige;
+  margin: 25px;
+  max-width: 250px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: beige;
 }
 
 nav {
-    height: 110px;
-    color: rgb(190, 122, 74);
-    background-color: beige;
-    display: flex;
-    flex-direction: column;
-}
-
-nav div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  height: 105px;
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(190, 122, 74);
+  font-size: 45px;
+  text-decoration: none;
+  color: rgb(190, 122, 74);
+  border-bottom: solid;
+  border-color: rgb(122, 78, 59);
+  border-style:double none;
+  border-width: 5px;
+}
+
+a:hover {
+    color: rgb(122, 78, 59);
 }
 
 main {
-    color: beige;
+  color: beige;
+  display: flex;
+  flex-direction: column;
 }
 
 .SmallApp {
-    max-width: 320px;
-    display: flex;
-    flex-wrap: wrap;
-}    
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
