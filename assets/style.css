@@ -5,6 +5,9 @@
 
 body {
   background-color: rgb(122, 78, 59);
+  color: beige;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -26,35 +29,43 @@ header img {
 }
 
 nav {
-  height: 105px;
+  height: 90px;
   background-color: beige;
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
-a {
+nav a {
   font-size: 45px;
   text-decoration: none;
   color: rgb(190, 122, 74);
-  border-bottom: solid;
   border-color: rgb(122, 78, 59);
-  border-style:double none;
+  border-style: double none;
   border-width: 5px;
 }
 
-a:hover {
-    color: rgb(122, 78, 59);
+nav a:hover {
+  color: rgb(122, 78, 59);
+  border-style: solid none;
 }
 
-main {
-  color: beige;
-  display: flex;
-  flex-direction: column;
+#aboutme {
+  background-color: rgb(190, 122, 74);
 }
 
 .SmallApp {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+footer {
+  background-color: rgb(190, 122, 74);
+  margin: 25px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: beige;
 }
